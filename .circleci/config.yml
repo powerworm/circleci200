@@ -11,7 +11,7 @@ jobs:
             - checkout
             - run:
                 name: Giving permission
-                command: chmod +x mnvw
+                command: chmod +x test.sh
             - run:
                 #command: ./mvnw -Dmaven.test.skip=true package
                 command: ./test.sh
