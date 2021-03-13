@@ -5,7 +5,8 @@ orbs:
 
 nightly:
     triggers:
-        - cron: "1****"
+        - schedule:
+            cron: "1 * * * *"
 
 jobs:
     build:
